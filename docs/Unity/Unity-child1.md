@@ -10,7 +10,6 @@ nav_order: 1
 
 ## 스크립팅 최적화
 {: .no_toc }
-
   -SendMessage 와 BroadcastMessage 함수 사용자제  
   -Find 관련 함수 사용자제  
   -자식이 많은 오브젝트 transform 변경시 많은 비용 발생  
