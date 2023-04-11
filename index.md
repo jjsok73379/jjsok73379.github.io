@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: 홈
 nav_order: 1
 description: "개인 공부용 블로그입니다."
 permalink: /
