@@ -2,8 +2,8 @@ remote_theme: just-the-docs/just-the-docs
 
 #Site settings
 
-title: 공부용 # 사이트 제목
-description: 공부용 블로그입니다. # 사이트 설명
+title: 라돈탄 # 사이트 제목
+description: 공부 정리용 블로그입니다. # 사이트 설명
 baseurl: "/" # 메인 접속경로 e.g. /blog, or /
 url: "https://jjsok73397.github.io"
 

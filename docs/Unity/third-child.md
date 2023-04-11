@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 유니티 소스
-parent: 유니티 공부 2
+title: 유니티 테스트
+parent: Unity
 nav_order: 1
 ---
 
-# 유니티 소스
+# 테스트
 {: .no_toc }
 
 테스트
