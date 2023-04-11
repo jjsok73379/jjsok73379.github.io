@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Markdown 1
+title: Markdown 첫번째
 parent: Markdown
 nav_order: 1
 ---
