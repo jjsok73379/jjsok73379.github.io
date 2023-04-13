@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 배열
-parent: Data_Structure
+parent: 자료구조
 nav_order: 1
 ---
 

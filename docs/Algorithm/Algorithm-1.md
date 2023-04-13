@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 조건
-parent: Algorithm
+parent: 알고리즘
 nav_order: 1
 ---
 

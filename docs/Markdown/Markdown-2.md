@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 인용문
-parent: Markdown
+parent: 마크다운
 nav_order: 2
 ---
 
