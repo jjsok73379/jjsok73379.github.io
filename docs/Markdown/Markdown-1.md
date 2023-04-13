@@ -1,14 +1,14 @@
 ---
 layout: default
-title: 첫번째
+title: 헤더
 parent: Markdown
 nav_order: 1
 ---
 
-# 마크다운 첫번째 사용법 
+# 마크다운 헤더 작성법  
 {: .no_toc }
 
-## 헤더 Headers
+## 헤더 Headers  
 - 글머리
 ```
 # h1
