@@ -23,13 +23,11 @@ end code block.
 실제로 적용해보면,  
 
 적용예 :  
----
 This is a normal paragraph:
 
     This is a code block.
     
-end code block.
----  
+end code block.  
 
 ## 2.4.2 코드블럭  
 
@@ -63,7 +61,8 @@ public class BootSpringBootApplication {
 
 
   - 코드블럭코드("```") 을 이용하는 방법  
-```
+
+````
 ```
 public class BootSpringBootApplication {
   public static void main(String[] args) {
@@ -71,7 +70,7 @@ public class BootSpringBootApplication {
   }
 }
 ```
-```  
+````  
 
 ```
 public class BootSpringBootApplication {
@@ -83,7 +82,7 @@ public class BootSpringBootApplication {
 
 **깃헙**에서는 코드블록코드("```") 시작점에 사용하는 언어를 선언하여 [문법강조(Syntax highlighting)](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks#syntax-highlighting)이 가능하다.  
 
-```
+````
 ```java
 public class BootSpringBootApplication {
   public static void main(String[] args) {
@@ -91,7 +90,7 @@ public class BootSpringBootApplication {
   }
 }
 ```
-```  
+````  
 
 ```java
 public class BootSpringBootApplication {

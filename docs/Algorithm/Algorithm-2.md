@@ -35,7 +35,7 @@ else print "감자"//아니라면 "감자"를 출력한다.
 
 Java, C언어, C++ 등을 이용하여 나타낸 것  
 
-```C
+```c
 public class Main  {
     public Main(){
         int a = 1;
