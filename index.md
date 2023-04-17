@@ -10,8 +10,6 @@ permalink: /
 
 이 블로그는 제가 공부한 내용을 정리하는 블로그입니다.  
 
-개인 포트폴리오 : <iframe width="885" height="498" src="https://www.youtube.com/embed/Ooh_s8fSd1k" title="[Unity3D] RPG 개인 포트폴리오" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 메일: ok7148@naver.com
 {: .fs-6 .fw-300 }
 
