@@ -14,8 +14,8 @@ nav_order: 5
 
 **시간 복잡도**  
 
-[image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2Ffc283dd2-db7a-4935-a273-a7fc5814a8ba%2Fimage.png)  
-[image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2Fa5dc5aeb-8061-4936-b8dc-26d6f7fbf0e8%2FHash_table_3_1_1_0_1_0_0_SP.svg)  
+![image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2Ffc283dd2-db7a-4935-a273-a7fc5814a8ba%2Fimage.png)  
+![image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2Fa5dc5aeb-8061-4936-b8dc-26d6f7fbf0e8%2FHash_table_3_1_1_0_1_0_0_SP.svg)  
 
 Source : Wikipedia  
 
