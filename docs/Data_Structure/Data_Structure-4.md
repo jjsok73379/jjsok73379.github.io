@@ -2,7 +2,7 @@
 layout: default
 title: 연결 리스트
 parent: 자료구조
-nav_order: 3
+nav_order: 4
 ---
 
 # Linked list(연결 리스트)  
