@@ -2,7 +2,7 @@
 layout: default
 title: 테이블
 parent: 마크다운
-nav_order: 9
+nav_order: 10
 ---
 
 # 테이블  
