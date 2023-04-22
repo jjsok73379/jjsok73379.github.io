@@ -11,33 +11,13 @@ nav_order: 12
 링크 부분을 `#`으로 두면 페이지 맨 위로 이동한다.  
 
 ```
-<a href="홈" class="btn--success">Success Button</a>
+<a href="https://jjsok73379.github.io/" class="btn--success">Success Button</a>
 ```  
-<a href="홈" class="btn--success">Success Button</a>  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<a href="https://jjsok73379.github.io/" class="btn--success">Success Button</a>  
 
 ```
 [Default Button](#){: .btn .btn--primary }
 ```  
+
 [Default Button](#){: .btn .btn--primary }
