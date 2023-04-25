@@ -8,6 +8,10 @@ nav_order: 8
 # 이미지  
 {: .no_toc }
 
+## 이미지 삽입  
+
+`![image](이미지 주소)`  
+
 ```
 ![image](https://camo.githubusercontent.com/a123b2c6011765dd07b9b58e40599a0ba15336a9ddd082e85f704781c97baee2/687474703a2f2f6366696c65362e75662e746973746f72792e636f6d2f696d6167652f32343236453634363534334339423435333243374230)
 ![image](https://camo.githubusercontent.com/a123b2c6011765dd07b9b58e40599a0ba15336a9ddd082e85f704781c97baee2/687474703a2f2f6366696c65362e75662e746973746f72792e636f6d2f696d6167652f32343236453634363534334339423435333243374230 "Optional title")
@@ -20,3 +24,23 @@ nav_order: 8
 `![image](이미지주소)(이동하려는 링크 주소)`  
 
 ![image](https://user-images.githubusercontent.com/42318591/83321884-1c2d2d80-a28e-11ea-8a50-7df24df12d90.png)(https://www.google.com/)  
+
+## 이미지 정렬  
+
+`{: .align-center}`을 뒤에 붙여주면 가운데 정렬  
+`{: .align-left}`을 뒤에 붙여주면 왼쪽 정렬  
+`{: .align-right}`을 뒤에 붙여주면 오른쪽 정렬  
+
+`![image](https://camo.githubusercontent.com/a123b2c6011765dd07b9b58e40599a0ba15336a9ddd082e85f704781c97baee2/687474703a2f2f6366696c65362e75662e746973746f72792e636f6d2f696d6167652f32343236453634363534334339423435333243374230){: .align-center}`  
+
+![image](https://camo.githubusercontent.com/a123b2c6011765dd07b9b58e40599a0ba15336a9ddd082e85f704781c97baee2/687474703a2f2f6366696c65362e75662e746973746f72792e636f6d2f696d6167652f32343236453634363534334339423435333243374230){: .align-center}  
+
+## 이미지 크기 변경  
+
+`{: width="30px", height="100px"}` 이렇게 픽셀로 가로 세로 크기를 직접 지정해줄 수도 있고 `{: width="50%", height="50%"}` 이렇게 비율로 크기를 지정해줄 수도 있다. 단 `100%`는 이미지 원본이 아닌 최대의 크기를 100%로 본다.  
+
+`![image](https://camo.githubusercontent.com/a123b2c6011765dd07b9b58e40599a0ba15336a9ddd082e85f704781c97baee2/687474703a2f2f6366696c65362e75662e746973746f72792e636f6d2f696d6167652f32343236453634363534334339423435333243374230){: width="20%" height="20%"}`  
+
+가로 세로를 20% 20%로 하니 훨씬 작아진 것을 볼 수 있다.  
+
+![image](https://camo.githubusercontent.com/a123b2c6011765dd07b9b58e40599a0ba15336a9ddd082e85f704781c97baee2/687474703a2f2f6366696c65362e75662e746973746f72792e636f6d2f696d6167652f32343236453634363534334339423435333243374230){: width="20%" height="20%"}
