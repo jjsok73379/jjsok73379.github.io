@@ -21,9 +21,9 @@ nav_order: 8
 
 **그림 자체에 링크 걸기**  
 
-`![image](이미지주소)(이동하려는 링크 주소)`  
+`[![image](이미지주소)](이동하려는 링크 주소)`  
 
-![image](https://user-images.githubusercontent.com/42318591/83321884-1c2d2d80-a28e-11ea-8a50-7df24df12d90.png)](https://www.google.com/)
+[![image](https://user-images.githubusercontent.com/42318591/83321884-1c2d2d80-a28e-11ea-8a50-7df24df12d90.png)](https://www.google.com/)  
 
 ## 이미지 정렬  
 
