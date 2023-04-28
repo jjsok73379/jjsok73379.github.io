@@ -2,7 +2,7 @@
 layout: default
 title: gif 움직이는 이미지
 parent: 마크다운
-nav_order: 13
+nav_order: 14
 ---
 
 # gif 움직이는 이미지  
