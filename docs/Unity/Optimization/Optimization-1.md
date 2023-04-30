@@ -1,7 +1,8 @@
 ---
 layout: default
 title: 스크립팅
-parent: 유니티/최적화 방법들
+parent: 최적화 방법들
+grand_parent: 유니티
 nav_order: 1
 ---
 
