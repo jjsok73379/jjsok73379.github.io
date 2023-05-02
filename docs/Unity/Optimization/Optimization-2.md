@@ -3,7 +3,7 @@ layout: default
 title: 가비지 컬렉터
 parent: 최적화 방법들
 grand_parent: 유니티
-nav_order: 1
+nav_order: 2
 ---
 
 # 가비지 컬렉터(힙 메모리)  
