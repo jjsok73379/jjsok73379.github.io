@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 비트 연산자
-parent: C++
+parent: C/C++
 nav_order: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: define
-parent: C++
+parent: C/C++
 nav_order: 1
 ---
 
