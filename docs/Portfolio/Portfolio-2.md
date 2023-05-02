@@ -2,7 +2,7 @@
 layout: default
 title: 팀 포트폴리오
 parent: 포트폴리오
-nav_order: 1
+nav_order: 2
 has_children: true
 permalink: /docs/Unity/Team_Portfolio
 ---
