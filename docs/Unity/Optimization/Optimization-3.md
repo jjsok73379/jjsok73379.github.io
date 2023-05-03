@@ -3,7 +3,7 @@ layout: default
 title: 그래픽 관련 최적화
 parent: 최적화 방법들
 grand_parent: 유니티
-nav_order: 2
+nav_order: 3
 ---
 
 # 그래픽 관련 최적화  
