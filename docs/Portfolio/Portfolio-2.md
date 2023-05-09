@@ -13,3 +13,5 @@ permalink: /docs/Unity/Team_Portfolio
 유니티를 이용해 만든 타이쿤 형식의 게임입니다.  
 
 <iframe width="885" height="498" src="https://www.youtube.com/embed/tWiCQQzsY2c" title="[Unity3D] 팀 프로젝트 IAGM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+
+- **추가 설명**
