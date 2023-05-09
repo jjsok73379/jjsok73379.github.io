@@ -9,6 +9,13 @@ nav_order: 5
 # 줄세우기  
 {: .no_toc }
 
-![image](https://user-images.githubusercontent.com/114732330/236992721-fbff448c-e7e2-423e-a8c3-0d2de02b6d53.png)  
+- 앞에 사람이 있을 경우 멈추고 사람이 앞에서 비키면 다시 이동한다.  
 
-- 앞에 사람이 있을 경우 멈추고 사람이 앞에서 비키면 다시 이동한다.
+<details>
+<summary>코드 보기</summary>
+<div markdown="1">
+
+![image](https://user-images.githubusercontent.com/114732330/236992721-fbff448c-e7e2-423e-a8c3-0d2de02b6d53.png)
+
+</div>
+</details>

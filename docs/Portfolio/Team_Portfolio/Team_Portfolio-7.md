@@ -9,6 +9,13 @@ nav_order: 7
 # 스텟에 따른 등급  
 {: .no_toc }
 
-![image](https://user-images.githubusercontent.com/114732330/236993465-eb0fb1dd-81ba-41c2-9627-9f224cf4ce30.png)  
+- 스텟에 따라서 모험가의 등급을 정해주었습니다.  
 
-- 스텟에 따라서 모험가의 등급을 정해주었습니다.
+<details>
+<summary>코드 보기</summary>
+<div markdown="1">
+
+![image](https://user-images.githubusercontent.com/114732330/236993465-eb0fb1dd-81ba-41c2-9627-9f224cf4ce30.png)
+
+</div>
+</details>
