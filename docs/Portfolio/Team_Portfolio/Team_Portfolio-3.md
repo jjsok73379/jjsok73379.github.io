@@ -15,7 +15,88 @@ nav_order: 3
 <summary>코드 보기</summary>
 <div markdown="1">
 
-![image](https://user-images.githubusercontent.com/114732330/236992160-da25db0d-e154-4733-8e78-312a6a7f91b4.png)
+```c#
+public static int W_Random(Quest.QuestGRADE[] RandomSet)
+{
+    int Lenght = RandomSet.Length;
+    int fame = GameManager.Instance.Fame;
+    int[] weights = new int[Lenght];
+
+    switch (Lenght)
+    {
+        case 3:
+            {
+                if (fame >= 0)
+                {
+                    weights[0] = 100;
+                    weights[1] = 0;
+
+                    for (int i = 0; i < (fame / 1000); i++)
+                    {
+                        if (weights[0] != 0)
+                        {
+                            weights[0] -= (int)0.5f;
+                            weights[1] += ((weights[1] >= 20) ? (int)0.4f : (int)0.5f);
+                        }
+                        else
+                        {
+                            if (weights[1] != 0)
+                            {
+                                weights[1] -= (int)0.4f;
+                            }
+                            else if (weights[1] == 0)
+                            {
+                                break;
+                            }
+                        }
+                    }
+                    weights[2] = 100 - (weights[0] + weights[1]);
+                }
+            }
+            break;
+        case 2:
+            {
+                if (fame >= 0)
+                {
+                    weights[0] = 100;
+                    for (int i = 0; i < (fame / 1000); i++)
+                    {
+                        if (weights[0] == 0)
+                        {
+                            break;
+                        }
+                        weights[0] -= (int)0.1f;
+                    }
+                    weights[1] = 100 - weights[0];
+                }
+            }
+            break;
+        case 1:
+            {
+                weights[0] = 100;
+            }
+            break;
+    }
+    int total = 0;
+    for (int t = 0; t < weights.Length; ++t)
+    { total += weights[t]; }
+
+    int pivot = Mathf.RoundToInt(total * UnityEngine.Random.Range(0.0f, 1.0f));
+
+    for (int n = 0; n < weights.Length; ++n)
+    {
+        if (pivot <= weights[n])
+        {
+            return n;
+        }
+        else
+        {
+            pivot -= weights[n];
+        }
+    }
+    return 0;
+}
+```
 
 </div>
 </details>

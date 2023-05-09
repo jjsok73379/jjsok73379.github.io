@@ -15,7 +15,37 @@ nav_order: 7
 <summary>코드 보기</summary>
 <div markdown="1">
 
-![image](https://user-images.githubusercontent.com/114732330/236993465-eb0fb1dd-81ba-41c2-9627-9f224cf4ce30.png)
+```c#
+public CharState.GRADE Grade(int main)
+{
+    CharState.GRADE grade = new CharState.GRADE();
+    if (main <= 140) // 기본스텟 40
+    {
+        grade = CharState.GRADE.F;
+    }
+    else if (main <= 640 && main > 140)
+    {
+        grade = CharState.GRADE.E;
+    }
+    else if (main <= 1640 && main > 640)
+    {
+        grade = CharState.GRADE.D;
+    }
+    else if (main <= 4640 && main > 1640)
+    {
+        grade = CharState.GRADE.C;
+    }
+    else if (main <= 9640 && main > 4640)
+    {
+        grade = CharState.GRADE.B;
+    }
+    else if (main > 9640)
+    {
+        grade = CharState.GRADE.A;
+    }
+    return grade;
+}
+```
 
 </div>
 </details>

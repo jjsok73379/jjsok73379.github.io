@@ -16,7 +16,43 @@ nav_order: 2
 <summary>코드 보기</summary>
 <div markdown="1">
 
-![image](https://user-images.githubusercontent.com/114732330/236991794-a20eb972-a531-4019-a623-8944a4ba427f.png)
+```c#
+public class SoundManager : Singleton<SoundManager>
+{
+    public AudioSource BGMSound;
+    public AudioSource[] Eff;
+
+    private void Start()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "Tutorial1")
+        {
+            SoundList.volume = PlayerPrefs.GetFloat("volume");
+        }
+        else
+        {
+            BGMSound.volume = PlayerPrefs.GetFloat("volume");
+        }
+        foreach (AudioSource source in Eff)
+        {
+            source.volume = PlayerPrefs.GetFloat("eff");
+        }
+    }
+}
+```
+
+````c#
+public void SetVolume()
+{
+    PlayerPrefs.SetFloat("volume", BGMvolume.value);
+    BGM.volume = PlayerPrefs.GetFloat("volume");
+    PlayerPrefs.SetFloat("eff", Effvolume.value);
+    foreach (AudioSource source in Eff)
+    {
+        source.volume = PlayerPrefs.GetFloat("eff");
+    }
+}
+````
 
 </div>
 </details>

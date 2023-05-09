@@ -16,7 +16,40 @@ nav_order: 1
 <summary>코드 보기</summary>
 <div markdown="1">
 
-![image](https://user-images.githubusercontent.com/114732330/236990607-fbbd099a-5730-4350-9aac-2010f767e8b2.png)
+```c#
+void Update()
+{
+    EndTime += Time.deltaTime;
+    if (EndTime < TimeManager.Instance.DeadLine)
+    {
+
+        if (BlockChk == false) // Npc 생성위치에 아무런 방해물이 없어서 정상일 때
+        {
+            if (curTime >= spawnTime && hostCount < maxCount)
+            {
+                Addvlnpc(); // 가중치 값 세팅
+                if (first)
+                {
+                    for (int i = 0; i < vlnpcs.Count; i++)
+                    {
+                        total += vlnpcs[i].weight;
+                    }
+                    first = false;
+                }
+                SpawnHost(); // 콜라이더에서 불값을 전달하고 이프문에서 불값을 검사함
+            }
+        }
+    }
+
+    curTime += Time.deltaTime;
+    if (EndTime >= TimeManager.Instance.OneDay)
+    {
+        QuestManager.Instance.EndQuestClear();
+        EndTime = 0.0f;
+        curTime = 0.0f;
+    }
+}
+```
 
 </div>
 </details>
