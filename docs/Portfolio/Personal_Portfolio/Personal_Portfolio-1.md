@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 타이틀 캐릭터 애니메이션
+title: 타이틀 캐릭터
 parent: 개인 포트폴리오
 grand_parent: 포트폴리오
 nav_order: 1
 ---
 
-# 타이틀 캐릭터 애니메이션  
+# 타이틀 캐릭터  
 {: .no_toc }
 
 - 카메라를 하나 추가해 캐릭터를 찍게 했고 RenderTexture로 만들어 UI에 추가했습니다.  
