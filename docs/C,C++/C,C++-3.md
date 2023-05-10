@@ -9,10 +9,12 @@ nav_order: 2
 {: .no_toc }
 
 ```c++
+#include <stdio.h>
+
 int Factorial(int _iNum) {
 	int iValue = 1;
 
-	for (int j = 1; j < _iNum - 1; j++) {
+	for (int j = 0; j < _iNum - 1; j++) {
 		iValue *= (j + 2);
 	}
 	
@@ -21,6 +23,8 @@ int Factorial(int _iNum) {
 
 int main() {
 	int iValue = Factorial(4);
+
+	printf("%d", iValue);
 
 	return 0;
 }
