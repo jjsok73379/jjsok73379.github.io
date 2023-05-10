@@ -2,7 +2,7 @@
 layout: default
 title: 함수
 parent: C/C++
-nav_order: 2
+nav_order: 3
 ---
 
 # Factorial 함수  
