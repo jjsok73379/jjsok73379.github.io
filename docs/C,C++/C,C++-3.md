@@ -5,9 +5,12 @@ parent: C/C++
 nav_order: 3
 ---
 
-# Factorial 함수  
+# 함수  
 {: .no_toc }
 
+- 구조가 자료구조 중 Stack과 비슷하다  
+
+예시 : Factorial 함수  
 ```c++
 #include <stdio.h>
 
