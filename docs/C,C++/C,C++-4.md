@@ -32,7 +32,7 @@ int main() {
 }
 ```  
 
-예시 : 피보나치 수열 재귀 함수
+예시 : 피보나치 수열 재귀 함수  
 ````c++
 int Fibonacci_Re(int _iNum) {
 	if (_iNum == 1 || _iNum == 2) {
@@ -41,6 +41,8 @@ int Fibonacci_Re(int _iNum) {
 
 	return Fibonacci_Re(_iNum - 1) + Fibonacci_Re(_iNum - 2);
 }
+// 엄청 오래 걸린다는 문제가 있음, 호출이 될 때마다 2의 제곱으로 늘어나서 엄청 오래 걸린다.
+// 함부로 쓰면 안됨, 충분히 고려하고 적절한 곳에서만 사용해야함.
 
 int main() {
 	int iValue = Fibonacci_Re(4);
