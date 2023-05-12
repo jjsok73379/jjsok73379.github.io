@@ -30,4 +30,23 @@ int main() {
 
 	return 0;
 }
-```
+```  
+
+예시 : 피보나치 수열 재귀 함수
+````c++
+int Fibonacci_Re(int _iNum) {
+	if (_iNum == 1 || _iNum == 2) {
+		return 1;
+	}
+
+	return Fibonacci_Re(_iNum - 1) + Fibonacci_Re(_iNum - 2);
+}
+
+int main() {
+	int iValue = Fibonacci_Re(4);
+
+	printf("%d", iValue);
+
+	return 0;
+}
+````
