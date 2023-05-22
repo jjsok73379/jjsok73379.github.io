@@ -23,7 +23,7 @@ nav_order: 9
 <summary>코드 보기</summary>
 <div markdown="1">
 
-````c#
+```c#
 [CreateAssetMenu(fileName = "SkillData", menuName = "ScriptableObjects/SkillData", order = 1)]
 public class SkillData : ScriptableObject
 {
@@ -75,7 +75,7 @@ public class SkillData : ScriptableObject
         set => myInfo = value;
     }
 }
-````
+```
 
 </div>
-</details>
+</details>  
