@@ -21,7 +21,7 @@ nav_order: 9
 </details>  
 <details>
 <summary>코드 보기</summary>
-<div markdown="2">
+<div markdown="1">
 
 ````c#
 [CreateAssetMenu(fileName = "SkillData", menuName = "ScriptableObjects/SkillData", order = 1)]
