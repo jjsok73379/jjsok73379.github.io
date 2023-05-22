@@ -10,7 +10,7 @@ nav_order: 5
 {: .no_toc }
 
 - 현재 씬, 플레이어, 인벤토리, 스킬, 퀘스트 등의 정보를 json 형식으로 저장한다.
-- json 형식으로 된 파일을 불러온다.  
+- json 형식으로 된 파일이 있으면 불러온다.  
 
 <details>
 <summary>코드 보기</summary>
