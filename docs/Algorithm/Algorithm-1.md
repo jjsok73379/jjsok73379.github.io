@@ -2,7 +2,7 @@
 layout: default
 title: 조건
 parent: 알고리즘
-nav_order: 2
+nav_order: 1
 ---
 
 # 알고리즘의 조건  

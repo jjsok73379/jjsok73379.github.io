@@ -2,7 +2,7 @@
 layout: default
 title: 표현 방법
 parent: 알고리즘
-nav_order: 3
+nav_order: 2
 ---
 
 # 알고리즘의 표현 방법  

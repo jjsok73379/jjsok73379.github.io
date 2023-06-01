@@ -2,7 +2,7 @@
 layout: default
 title: 알고리즘의 정의
 parent: 알고리즘
-nav_order: 1
+nav_order: 3
 ---
 
 # 알고리즘의 정의  

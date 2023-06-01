@@ -1,36 +1,34 @@
 ---
 layout: default
-title: 스택
+title: 배열
 parent: 자료구조
 nav_order: 2
 ---
 
-# Stack(스택)  
+# Array(배열)  
 {: .no_toc }
 
-스택은 순서가 보존되는 선형 데이터 구조 유형이다. 가장 마지막 요소 (가장 최근 요소)부터 처리하는 LIFO (Last In First Out) 메커니즘은 가지고 있다. 스택은 쌓여있는 접시 더미와 같이 작동한다. 새로운 접시가 쌓일 때도 맨 위에서 쌓이고, 접시를 가져갈 때도 맨 위에서 가지고 가는 것과 같다.  
+배열은 가장 기본적인 데이터 구조다. 배열은 생성시 설정된 셀의 수가 고정되고, 각 셀에는 인덱스 번호가 부여된다. 배열을 활용 시 부여된 인덱스를 통해 해당 셀 안에 있는 데이터에 접근 할 수 있다.  
 
-**시간 복잡도**
-
-![image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2F5ea8515f-1fc1-4287-a4ab-7f5922df7b92%2Fimage.png)  
-![image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2Fda339210-5823-4b0c-9279-540c6c88d46e%2Fstack.png)  
-
-Source : Wikipedia  
+**시간 복잡도**  
+![image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2Fca6c0cb6-a125-478e-b78d-76dcc104de30%2Fimage.png)  
+![image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2F965ed498-5d5a-4a9c-86e3-3bfdd4ad2fb8%2Farray2.png)  
+![image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2F98807021-e488-4aa4-8a70-922aeba4e2ba%2Farray1.png)  
 
 **장점**  
 
-  - 동적인 메모리 크기  
-  - 데이터를 받는 순서대로 정렬된다  
-  - 빠른 런타임 (runtime)  
+  - 바로 만들어서 활용하기가 쉽다  
+  - 더 복잡한 자료 구조의 기초가 될 수 있다  
+  - 원하는 데이터를 효율적으로 탐색/가져올 수 있다  
+  - 정렬에 용이하다  
 
 **단점**  
 
-  - 가장 최신 요소만 가져온다  
-  - 한번에 하나의 데이터만 처리 가능하다  
+  - 데이터를 저장 할 수 있는 메모리 크기가 고정되어 있다  
+  - 데이터 추가 / 삭제 방법이 비효율적이다  
+  - 구조 재구성 시 정렬하는 방식이 비효율적이다  
 
 **사용**  
 
-  - 가장 마지막으로 입력된 것을 순차적으로 바로 처리하고 싶을 때  
-  - 브라우저의 뒤로가기  
-  - 실행 취소  
-  - 재귀  
+  - 엑셀의 스프레드시트 처럼 직사각형 테이블, 수학적 벡터 (vector) 및 행렬 (matrix)를 구현하는 데 사용된다  
+  - 다른 데이터 구조에서 사용된다

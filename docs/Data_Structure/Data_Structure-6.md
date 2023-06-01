@@ -1,34 +1,34 @@
 ---
 layout: default
-title: 그래프
+title: 해시 테이블
 parent: 자료구조
 nav_order: 6
 ---
 
-# Graph (그래프)  
+# Hash tables / Hash map(해시 테이블)  
 {: .no_toc }
 
-그래프는 단순히 **nodes/vertices(노드)** 사이에 **edge(엣지)**가 있는 collection이다. 그래프는 directed(방향) 또는 undirected(무방향)이 될 수 있다. Directed graph는 한쪽 방향 밖에 없어서 일방통행과 같고, undirected graph는 방향이 지정되지 않아서 양방향 도로와 같다. 하지만 그래프로 구성된 데이터 구성은 다양하다.  
+해시 테이블은 **대량의 정보**를 **저장**하고 특정 요소를 **효율적**으로 **검색**할 수 있는 복잡한 데이터 구조다. 이 데이터 구조는 테이블 내에 더 작은 서브그룹인 **버킷**(bucket)에 **키/값**(key/value) 쌍(pair)을 저장한다. 해시 테이블은 키를 저장할 때에 메모리 공간을 덜 사용할 수 있도록, 키를 "해시 함수"(Hash function)라는 함수를 통해 **해시**(hash)라는 특정 숫자값으로 **변환**한다. 해시 테이블은 필요할 때에만 **메모리 크기**를 늘리고, 가능한 **작은 크기**를 **유지**한다.  
 
-그래프로 구조를 어떻게 설계 그리고 무엇을(검색, 추가, 삭제, 등) 하고 싶으냐에 따라 시간 복잡도가 달라진다.  
-
-그래프가 리스트 형태로 설계 되어 있는 경우: N = node, E = edge  
+키(key)는 **검색 시** 사용되는 문자열이고 값(value)은 해당 키와 **쌍**을 이룬 **데이터**다. 검색된 각 키는 미리 정의된 해시함수(hash function)를 통해 해시(hash)값을 받고 버킷(bucket)을 가리킨다. 즉, 해시 숫자는 **버킷의 index**라는 뜻이다. 그리고 버킷에서 검색할 때 입력된 키를 찾고 **해당 키**와 **관련된 값**을 반환한다.  
 
 **시간 복잡도**  
 
-![image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2F6c15078f-ace8-4441-b0e9-6ab10b808690%2Fimage.png)  
-![image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2Fc81001af-5047-40b3-a1a5-a44c7b8fd94b%2Fgraph2.png)  
+![image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2Ffc283dd2-db7a-4935-a273-a7fc5814a8ba%2Fimage.png)  
+![image](https://velog.velcdn.com/images%2Fjha0402%2Fpost%2Fa5dc5aeb-8061-4936-b8dc-26d6f7fbf0e8%2FHash_table_3_1_1_0_1_0_0_SP.svg)  
 
-Source: tekslate  
+Source : Wikipedia  
 
 **장점**  
 
   - 새로운 요소들의 추가 / 삭제가 용이하고 효율적이다  
-  - 구조의 응용이 가능하다  
+  - 원하는 값의 검색 / 가져오기가 빠르고 효율적이다  
+  - 동적인 메모리 크기 (그러나 직접 크기를 늘리거나 줄여야 한다)  
 
 **단점**  
 
   - 충돌이 일어날 수 있다 (입력된 키의 해시값이 이미 데이터가 저장된 버킷을 가리킬 수 있다)  
+  - 충돌이 자주 일어날 수 있으며 해시함수의 정비가 필요한 경우가 많다.  
 
 **사용**  
 
