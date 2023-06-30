@@ -4,7 +4,7 @@ title: 개인 포트폴리오
 parent: 포트폴리오
 nav_order: 1
 has_children: true
-permalink: /docs/Unity/Personal_Portfolio
+permalink: /docs/Portfolio/Personal_Portfolio
 ---
 
 # 개인 포트폴리오  
