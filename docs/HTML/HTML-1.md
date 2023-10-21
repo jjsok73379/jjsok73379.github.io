@@ -9,6 +9,8 @@ nav_order: 1
 HTML의 문법은 딱 한 가지, 태그(tag)만 기억하면 된다.  
 **태그** : HTML 코드에서 정보(콘텐츠)를 정의하는 형식  
 
+<hr>  
+
 ## 태그 사용법  
 
 1. **시작과 끝**  
@@ -41,11 +43,14 @@ HTML의 문법은 딱 한 가지, 태그(tag)만 기억하면 된다.
 HTML 주석의 예)  
 ```
 <!-- 이 사이에 작성한 내용은 주석으로 처리된다. -->
-```
+```  
+
+<hr>  
 
 **실습**  
 ````java
 <p>Hello~~!</p> <!-- 텍스트를 표시하는 태그 -->
 <br><br /><br><br /> <!-- br은 문단 띄어쓰기 -->
 <strong style="color:red">Hello~!</strong> <!-- 텍스트를 좀 더 두껍게 style은 속성 -->
-````
+````  
+![image](https://github.com/jjsok73379/jjsok73379.github.io/assets/114732330/940556d0-5ad0-4ab6-896d-a7c9d4bb5a82)
