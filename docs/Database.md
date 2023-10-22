@@ -13,7 +13,7 @@ permalink: /docs/Database
 
 # 데이터베이스의 종류  
 관계형 데이터베이스 : mysql, oracle, mssql -> 표준화된 sql문법을 같이 공유한다.  
-nospl : mongodb, http://nosql-database.org/ -> 빅데이터  
+nospl : mongodb, http://nosql-database.org/ -> 빅데이터 대비용  
 
 <hr>  
 
