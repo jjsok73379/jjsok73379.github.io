@@ -22,7 +22,7 @@ id와 class는 사용자 정의 값을 사용한다.
 - title : 요소의 추가 정보를 제공하는 텍스트 속성. 사용자에게 툴팁 제공.  
 
 더 많은 전역 속성에 대한 정보를 알고 싶다면 다음 링크를 참고하세요 : 
-[https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes][https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes]  
+[https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes)  
 
 **실습**  
 ```java
