@@ -12,11 +12,11 @@ select에는 input과 마찬가지로 name을 지정할 수 있으며, 각각의
 
 multiple : option들이 펼쳐져 보이고 값을 요구하지 않는 속성  
 사용 예) `<select name="pet" multiple>`  
-![image](https://github.com/jjsok73379/jjsok73379.github.io/assets/114732330/85557175-c8e7-4cc2-90a4-a3011945e79f)  
+![image](https://github.com/jjsok73379/jjsok73379.github.io/assets/114732330/249c67fc-4b31-45c8-87bc-efeb2526423e)  
 
 selected : 처음 선택되는 속성  
 사용 예) `<option value="cat" selected>고양이</option>`  
-![image](https://github.com/jjsok73379/jjsok73379.github.io/assets/114732330/88ebbda3-252b-4548-a82a-485043c1fd74)  
+![image](https://github.com/jjsok73379/jjsok73379.github.io/assets/114732330/ac2d8408-d01e-4116-8e1a-f9c8ac37f688)  
 
 <br>  
 
