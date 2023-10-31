@@ -18,7 +18,7 @@ selected : 처음 선택되는 속성
 사용 예) `<option value="cat" selected>고양이</option>`  
 ![image](https://github.com/jjsok73379/jjsok73379.github.io/assets/114732330/ac2d8408-d01e-4116-8e1a-f9c8ac37f688)  
 
-<br>  
+<hr>  
 
 # textarea  
 textarea는 여러 줄의 일반 텍스트를 입력할 수 있는 입력 요소이다.  

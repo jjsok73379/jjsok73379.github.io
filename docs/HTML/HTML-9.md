@@ -58,6 +58,8 @@ a 태그 요소는 href 속성을 통해 다른 페이지, 전화번호, 이메�
 ````  
 ![image](https://github.com/jjsok73379/jjsok73379.github.io/assets/114732330/bcbf0977-6d7d-433c-89e7-f4d0fff51b62)  
 
+<hr>  
+
 # 새 탭에서 열고 싶다  
 a 태그의 target 속성을 이용하면 새로운 문서를 열 때 현재 탑에서 열지, 새로운 탑에서 열지 결정할 수 있다.  
 	- <a href="https://www.naver.com" target="_self">  
@@ -86,6 +88,8 @@ a 태그의 target 속성을 이용하면 새로운 문서를 열 때 현재 탑
   </body>
 </html>
 ```  
+
+<hr>  
 
 # 연락을 해보자  
 a 태그의 href에는 웹문서의 주소 뿐 아니라 전화번호나 메일 주소 등을 지정할 수도 있다. 이 때 각 유형별로 추가되는 텍스트가 있다.  
