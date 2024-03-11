@@ -25,33 +25,33 @@ position 속성에는 다음 속성값들을 지정할 수 있다.
 
 <table>
     <tr>
-        <th style="background-color: aquamarine;"><span style="color:black">속성값</span></th>
-        <th style="background-color: aquamarine;"><span style="color:black">의미</span></th>
+        <th style="background-color: gray;">속성값</th>
+        <th style="background-color: gray;">의미</th>
     </tr>
     <tr>
-        <th style="background-color: aqua;"><span style="color:black">static</span></th>
-        <th><span style="color:black">기본값, 요소를 일반적인 문서 흐름에 따라 배치한다.</span></th>
+        <th>static</th>
+        <th>기본값, 요소를 일반적인 문서 흐름에 따라 배치한다.</th>
     </tr>
     <tr>
-        <th style="background-color: aquamarine;"><span style="color:black">relative</span></th>
-        <th style="background-color: gray;"><span style="color:black">일반적인 문서 흐름에 따라 배치하되, 상하좌우 위치 값에 따라 오프셋을 적용한다.</span></th>
+        <th>relative</th>
+        <th>일반적인 문서 흐름에 따라 배치하되, 상하좌우 위치 값에 따라 오프셋을 적용한다.</th>
     </tr>
     <tr>
-        <th style="background-color: aqua;"><span style="color:black">absolute</span></th>
-        <th><span style="color:black">
+        <th>absolute</th>
+        <th>
             일반적인 문서 흐름에서 제거하고,
-            가장 가까운 position 지정 요소에 대해 상대적으로 오프셋을 적용한다.</span>
+            가장 가까운 position 지정 요소에 대해 상대적으로 오프셋을 적용한다.
         </th>
     </tr>
     <tr>
-        <th style="background-color: aquamarine;"><span style="color:black">fixed</span></th>
-        <th style="background-color: gray;"><span style="color:black">일반적인 문서 흐름에서 제거하고, 지정한 위치에 고정된다.</span></th>
+        <th>fixed</th>
+        <th>일반적인 문서 흐름에서 제거하고, 지정한 위치에 고정된다.</th>
     </tr>
     <tr>
-        <th style="background-color: aqua;">sticky</span></th>
-        <th><span style="color:black">
+        <th>sticky</th>
+        <th>
             일반적인 문서 흐름에서 제거하고,
-            스크롤 동작이 존재하는 가장 가까운 요소에 대해 오프셋을 적용한다.</span>
+            스크롤 동작이 존재하는 가장 가까운 요소에 대해 오프셋을 적용한다.
         </th>
     </tr>
 </table>  

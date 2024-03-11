@@ -59,25 +59,24 @@ flex-direction 속성은 flexbox 내 요소를 배치할 때 사용할 주축 �
 
 <table>
     <tr>
-        <th style="background-color: aquamarine;"><span style="color:black">속성값</span></th>
-        <th style="background-color: aquamarine;"><span style="color:black">의미</span></th>
+        <th style="background-color: gray;">속성값</th>
+        <th style="background-color: gray;">의미</th>
     </tr>
     <tr>
-        <th style="background-color: aqua;"><span style="color:black">row</span></th>
-        <th><span style="color:black">기본값, 주축은 행이고 방향은 콘텐츠의 방향과 동일</span></th>
+        <th>row</th>
+        <th>기본값, 주축은 행이고 방향은 콘텐츠의 방향과 동일</th>
     </tr>
     <tr>
-        <th style="background-color: aqua"><span style="color:black">row-reverse</span></th>
-        <th><span style="color:black">주축은 행이고 방향은 콘텐츠의 방향과 반대</span></th>
+        <th>row-reverse</th>
+        <th>주축은 행이고 방향은 콘텐츠의 방향과 반대</th>
     </tr>
     <tr>
-        <th style="background-color: aqua;"><span style="color:black">column</span></th>
-        <th><span style="color:black">주축은 열이고 방향은 콘텐으의 방향과 동일</span></th>
+        <th>column</th>
+        <th>주축은 열이고 방향은 콘텐으의 방향과 동일</th>
     </tr>
     <tr>
-        <th style="background-color: aqua;"><span style="color:black">column-reverse</span></th>
-        <th><span style="color:black">주축은 열이고 방향은 콘텐으의 방향과 반대</span></th>
-    </tr>
+        <th>column-reverse</th>
+        <th>주축은 열이고 방향은 콘텐으의 방향과 반대</th>
     </tr>
 </table>  
 

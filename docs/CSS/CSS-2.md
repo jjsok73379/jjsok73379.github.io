@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CSS 선택자(1)
+title: 선택자 1편
 parent: CSS
 nav_order: 2
 ---
